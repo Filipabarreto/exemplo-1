@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "filipa": {
+    "exemplo1": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "filipa:build:production"
+              "buildTarget": "exemplo1:build:production"
             },
             "development": {
-              "buildTarget": "filipa:build:development"
+              "buildTarget": "exemplo1:build:development"
             }
           },
           "defaultConfiguration": "development"
